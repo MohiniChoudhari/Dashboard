@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+           
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .dashboard-container {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .dashboard {
+            width: 100%;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            position: relative;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 20px;
+            position: relative;
+        }
+        .menu {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .content {
+            height: 300px;
+            background-color: #f8f8f8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .elearning-logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 50px;
+        }
+        .bottom-nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            background-color: #42c7db;
+            padding: 10px 0;
+            border-radius: 10px;
+        }
+        .nav-item {
+            text-align: center;
+            color: black;
+            font-size: 14px;
+        }
+        .nav-item img {
+            width: 30px;
+            height: 30px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard">
+            <div class="header">
+                <div class="menu">&#9776;</div>
+                DASHBOARD
+            </div>
+            <div class="content">
+                <img class="elearning-logo" src="./Photos/elearning.jpg" alt="E-learning">
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="nav-item">
+                <img src="./Photos/Home.jpg" alt="Home">
+                <div>HOME</div>
+            </div>
+            <div class="nav-item">
+                <img src="./Photos/Notebook.jpg" alt="Notebook">
+                <div>NOTEBOOK</div>
+            </div>
+            <div class="nav-item">
+                <img src="./Photos/Book.jpg" alt="Book">
+                <div>BOOK</div>
+            </div>
+            <div class="nav-item">
+                <img src="./Photos/Meet.jpg" alt="Meet">
+                <div>MEET</div>
+            </div>
+            <div class="nav-item">
+                <img src="./Photos/Assignment.jpg" alt="Assignment">
+                <div>ASSIGNMENT</div>
+            </div>
+            <div class="nav-item">
+                <img src="./Photos/Test.jpg" alt="Test">
+                <div>TEST</div>
+            </div>
+            <div class="nav-item">
+                <img src="./Photos/Profile.jpg" alt="Profile">
+                <div>PROFILE</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
